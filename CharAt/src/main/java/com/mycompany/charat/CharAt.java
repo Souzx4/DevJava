@@ -14,7 +14,7 @@ public class CharAt {
         String s = "CURSOEMVIDEO";
         char[] r = new char[12];
         for (int c=s.length()-1; c>=0; c--){ //de tras para a frente
-            r[c] = s.charAt(c); //caractere na posição 11
+             r[c] = s.charAt(c);//caractere na posição 11
         }
         for (char l:r){
             System.out.print(l);
